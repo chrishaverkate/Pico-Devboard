@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 469)
+    (start_pass_no 868)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -62,7 +62,7 @@
     "unconnected-(U1-Pad11)" "unconnected-(U1-Pad12)" "unconnected-(U1-Pad14)" "unconnected-(U1-Pad15)" "unconnected-(U1-Pad16)" "unconnected-(U1-Pad17)" "unconnected-(U1-Pad19)" "unconnected-(U1-Pad20)"
     "unconnected-(U1-Pad21)" "unconnected-(U1-Pad22)" "unconnected-(U1-Pad24)" "unconnected-(U1-Pad25)" "unconnected-(U1-Pad26)" "unconnected-(U1-Pad27)" "unconnected-(U1-Pad29)" "unconnected-(J4-Pad40)"
     "unconnected-(U1-Pad31)" "unconnected-(U1-Pad32)" "unconnected-(U1-Pad34)" "unconnected-(U1-Pad35)" "unconnected-(U1-Pad36)" "unconnected-(U1-Pad37)" "Net-(D1-Pad1)" "unconnected-(U1-Pad41)"
-    "unconnected-(U1-Pad43)" "/ADC_VREF" "Net-(U1-Pad39)"
+    "unconnected-(U1-Pad43)" "/ADC_VREF" "/5V_switched" "unconnected-(SW2-Pad3)" "unconnected-(U1-Pad40)"
     (clearance_class default)
     (via_rule default)
     (rule
