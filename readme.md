@@ -25,7 +25,7 @@ A very simple and generic development board for a Raspberry Pi Pico that leverag
 	* 2x - 1x3  power and programming (J1 and J5)
 	* 1x - 2x10 off-board expansion (J3)
 	* 1x - 1x4  test pins (J6)
-* [Test Pins](https://github.com/chrishaverkate/Pico-Devboard) (J6)
+* [Test Pins](https://a.co/d/6bz0lk5) (J6)
 * [Slide switch](https://a.co/d/a2dGuMf) (SW2)
 * [Push button](https://a.co/d/cavYAee) (SW1)
 * LED (D1)
