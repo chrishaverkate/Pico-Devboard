@@ -37,26 +37,33 @@ A very simple and generic development board for a Raspberry Pi Pico that leverag
 I used [JLCPCB](https://jlcpcb.com) and could buy 10 boards for just under $16.
 
 # Software
-*coming soon*
-
-Included in this repo is a template to get you started with programming.
-
-## Setting up the Pico Probe
-...
-
-## Project Structure
-...
-
-## Compiling
-...
-
-### Docker
-...
-
-## Loading Binary on Pico Dev
-...
-
-
+See the [Software Readme](software/pico-demo/readme.md)
 
 # Resources
 Need to collect links to helpful docs
+
+# Errata
+## 1) Serial RX/TX Flipped
+**Description**: Serial RX/TX lines flipped from Pico Probe (U1) to Pico Dev (J4).
+**Symptom if Uncorrected**: Serial communication will not work.
+**Mitigation**:
+1. Cut traces, on top of board, coming from U1 pins GP4 and GP5
+2. Solder wires, on bottom of board:
+	* U1 pin GP4 to J4 pin 2
+	* U1 pin GP5 to J4 pin 1
+
+## 2) J5 Silk Screen Misslabelled
+**Description**: The labels for SWCLK and SWDIO on J5 are swapped.
+**Symptom if Uncorrected**: Programming will fail with an error about the pico not responding.
+**Mitigation**: Make correction when wiring
+
+# Images
+
+**Building**
+![Building](docs/building.JPG)
+
+**Built**
+![Built](docs/built.JPG)
+
+**Alive!**
+![Alive](docs/alive.JPG)

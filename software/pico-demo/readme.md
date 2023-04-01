@@ -22,8 +22,8 @@ job than I can today.
 This project is just a starting template and only tested on Linux. 
 It's likely usable in WSL and on Mac (with some modification), but I haven't tested it.
 
-_Note_, I've included some documents in the 'docs' folder, but it's always good
-to check for updates.
+_Note_, normally I would include documents in the 'docs' folder. Since this software project
+is nested in a larger repo, they can be found in the root docs folder.
 
 ### Prerequisites
 * [Docker](https://docs.docker.com/get-docker/)
@@ -47,5 +47,4 @@ cd scripts && ./run-build-docker.bash
 
 The benefit to this script is the output will be placed in the 'bin' folder,
 and it will be ready to flash to the Pico.
-
 
