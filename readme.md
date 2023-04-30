@@ -57,6 +57,12 @@ Need to collect links to helpful docs
 **Symptom if Uncorrected**: Programming will fail with an error about the pico not responding.
 **Mitigation**: Make correction when wiring
 
+# Future Features
+* Move or duplicate J2 to the right side of the breadboard
+  * This will make it easier to connect GPIO directly to the off-board expansion header (J3)
+* Add 2-pin jumper on 5V trace, between power switch (SW2) and power header (J1)
+  * When the jumper is removed the power will be disconnected, allowing for in-line power measurement 
+
 # Images
 
 **Building**
